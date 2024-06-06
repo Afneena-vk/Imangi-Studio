@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;  
+} 
+.container{
+   width: 100vw;
+    
+}
+.header{
+    height:auto;
+    
+    
+}
+.navbar-style{
+    box-shadow:0 5px 10px #efefef;
+    position: fixed;
+    background-color: black;
+}
+.logo{
+    height: 48px;
+    padding: 1px 1px;
+    margin-left: 30px;
+}
+li a{
+    color: blue;
+}
+.last-text{
+    color: #ffff;
+    
+}
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+.heading-1{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
+}
+
+.last-heading{
+    color: #ffff;
+}
+.p-last{
+    color: #ffff;
+}
+li{
+    display: inline;
+}
+span{
+    padding-left: 3rem;
+    color: #ffff;
+    font-weight: normal;
+    font-size: medium;
+}
+.soc-med i{
+    filter: invert(1);
+}
+.nav-a{
+    font-weight: bold;
+}
+/*.container-image{
+    display: grid;
+    position: relative;
+}*/
+/* #first-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: Roboto Condensed, sans-serif;
+} */
+@media screen and (max-width:1315px){
+ .first-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Roboto Condensed, sans-serif; 
+    padding-left: 30px;
+    }
+}
+@media screen and (max-width:1180px){
+.first-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: Roboto Condensed, sans-serif; 
+    }
+}
+@media(min-width:700px){
+ #first-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: Roboto Condensed, sans-serif; 
+    }
+}
+@media (max-width:980px){
+ .first-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: Roboto Condensed, sans-serif; 
+    }
+}
+@media(max-width:695px) {
+ .first-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: Roboto Condensed, sans-serif; 
+    }
+}
+
+@media(max-width:464px) {
+    .first-text{
+       position: absolute;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%);
+       font-size: 15px;
+       font-weight: bold;
+       color: black;
+       font-family: Roboto Condensed, sans-serif; 
+       }
+   }
+
+
+
